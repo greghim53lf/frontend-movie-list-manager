@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/884d6a4791.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Movies</title>
+    <script src="appMovieUpdate.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="header-logo" href="./movies.html">
+        <i class="fa-solid fa-film"></i>
+        <h1>MOVIES</h1>
+      </a>
+    </header>
+
+    <main>
+
+      <div class="form-container">
+        <h2>Edit Movie</h2>
+        <form id="edit-movie-form">
+          <input
+            type="text"
+            placeholder="Title"
+            id="movie-title"
+            autocomplete="off"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Director"
+            id="movie-director"
+            autocomplete="off"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Year"
+            id="movie-year"
+            autocomplete="off"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Genre"
+            id="movie-genre"
+            autocomplete="off"
+            required
+          />
+          <textarea
+            id="movie-summary"
+            cols="30"
+            rows="10"
+            placeholder="Summary"
+          ></textarea>
+          <button id="save-movie-btn" type="submit">Save</button>
+        </form>
+      </div>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="style.js"></script>
+  </body>
+</html>

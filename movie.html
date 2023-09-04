@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/884d6a4791.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Movies</title>
+    <script src="appMovie.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="header-logo" href="./movies.html">
+        <i class="fa-solid fa-film"></i>
+        <h1>MOVIES</h1>
+      </a>
+    </header>
+
+    <main>
+      <div class="movie-detail-container">
+        <h2 id="movie-title"></h2>
+
+        <ul>
+          <li id="movie-director"></li>
+          <li id="movie-year"></li>
+          <li id="movie-genre"></li>
+        </ul>
+
+        <div id="movie-summary-div">
+          <h2 id="about">About</h2>
+          <p id="movie-summary-details"></p>
+        </div>
+
+        <div class="controls">
+          <button id="edit-btn" type="button">Edit</button>
+          <button id="delete-btn" type="button">Delete</button>
+        </div>
+        
+      </div>
+
+      
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="style.js"></script>
+  </body>
+</html>
